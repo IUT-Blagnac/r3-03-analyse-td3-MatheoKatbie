@@ -11,10 +11,22 @@ public class App
         System.out.println(hello());
     }
 
+    /**
+     * @author = @MatheoKatbie
+     * 
+     * Return HelloWorld a l'appel de la fonction
+     * 
+     */
     public static String hello() {
         return  "Hello World!" ;
     }
 
+    /**
+     * @author = @MatheoKatbie
+     * 
+     * Retourne le paramètre donné en paramètre
+     * 
+     */
     public static String hello(String param) {
         return  param ;
     }
